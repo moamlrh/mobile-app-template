@@ -1,10 +1,10 @@
-# Burger Shop with Reactjs & Redux.
+# Mobile App Template with React-js.
  
-    ### Burger Shop Template
+    ### Mobile App Template
     
     - Responsive design with all devices 
-    - Using Redux with add to cart and automatically changing all the values.
     - You can use it for free 
     - Animation with scroll smooth
+    - other features
     
-  #### You can check it online from [HERE](https://burger-shop.vercel.app)
+  #### You can check it online from [HERE](https://mobile-app-template.vercel.app/)
