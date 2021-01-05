@@ -1,0 +1,53 @@
+@import "../../global.scss";
+
+.notified {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-family: $font;
+  padding: $padding;
+  .left {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../../images/plant-bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 90%;
+    img {
+      width: 60%;
+    }
+  }
+  .right {
+    width: 50%;
+    span {
+      font-family: cursive;
+      font-size: 40px;
+      color: rgba(128, 128, 128, 0.719);
+      font-weight: 500;
+    }
+    h1 {
+      font-size: 50px;
+      margin: 20px 0px;
+    }
+    p {
+      font-size: 20px;
+      color: grey;
+    }
+  }
+  @media all and (max-width: 820px) {
+    text-align: center;
+    flex-direction: column;
+    margin-bottom: 100px;
+    .left {
+      width: 100%;
+    }
+    .right {
+      width: 100%;
+      h1{
+        font-size: 40px;
+      }
+    }
+  }
+}
