@@ -1,7 +1,6 @@
 import React, { useEffect } from "react";
 import "./Features.scss";
 import girl from "../../images/girl-img.jpg";
-import bg from "./img1.jpg";
 import { Rating } from "@material-ui/lab";
 import { PlayArrowOutlined, StarBorder } from "@material-ui/icons";
 
